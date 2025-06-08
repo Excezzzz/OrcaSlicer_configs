@@ -1,0 +1,88 @@
+{
+    "default_filament_colour": [
+        "#808080"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "fan_cooling_layer_time": [
+        "1"
+    ],
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_cost": [
+        "900"
+    ],
+    "filament_end_gcode": [
+        ""
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "25"
+    ],
+    "filament_settings_id": [
+        "Ghost6 ASA HTP"
+    ],
+    "filament_start_gcode": [
+        ""
+    ],
+    "filament_type": [
+        "ASA"
+    ],
+    "filament_vendor": [
+        "Hi-Tech Plast"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "My Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Ghost6 ASA HTP",
+    "nozzle_temperature": [
+        "300"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "300"
+    ],
+    "nozzle_temperature_range_high": [
+        "320"
+    ],
+    "nozzle_temperature_range_low": [
+        "260"
+    ],
+    "overhang_fan_speed": [
+        "75"
+    ],
+    "pressure_advance": [
+        "0.035"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "version": "1.6.1.0"
+}

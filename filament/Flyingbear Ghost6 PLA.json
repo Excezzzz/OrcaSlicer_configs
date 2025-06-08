@@ -1,0 +1,52 @@
+{
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_cooling_layer_time": [
+        "80"
+    ],
+    "fan_min_speed": [
+        "50"
+    ],
+    "filament_cost": [
+        "1900"
+    ],
+    "filament_flow_ratio": [
+        "1.05"
+    ],
+    "filament_max_volumetric_speed": [
+        "10"
+    ],
+    "filament_settings_id": [
+        "Flyingbear Ghost6 PLA"
+    ],
+    "filament_start_gcode": [
+        "M900 K0.045"
+    ],
+    "filament_vendor": [
+        " ESUN"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Flyingbear Ghost6 PLA",
+    "nozzle_temperature": [
+        "190"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "190"
+    ],
+    "pressure_advance": [
+        "0.073"
+    ],
+    "slow_down_layer_time": [
+        "1"
+    ],
+    "slow_down_min_speed": [
+        "20"
+    ],
+    "version": "1.6.0.0"
+}

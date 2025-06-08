@@ -1,0 +1,79 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "default_filament_colour": [
+        "#FF0000"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "110"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "110"
+    ],
+    "fan_cooling_layer_time": [
+        "40"
+    ],
+    "fan_max_speed": [
+        "30"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cost": [
+        "900"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "25"
+    ],
+    "filament_settings_id": [
+        "Ghost6 ABS MAKO RED"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\nSET_FAN_SPEED FAN=out_fan SPEED=1.0"
+    ],
+    "filament_vendor": [
+        "MAKO"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "110"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "110"
+    ],
+    "inherits": "My Generic ABS",
+    "is_custom_defined": "0",
+    "name": "Ghost6 ABS MAKO RED",
+    "nozzle_temperature_range_high": [
+        "290"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "overhang_fan_speed": [
+        "25"
+    ],
+    "pressure_advance": [
+        "0.028"
+    ],
+    "slow_down_layer_time": [
+        "1"
+    ],
+    "slow_down_min_speed": [
+        "40"
+    ],
+    "textured_plate_temp": [
+        "110"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "110"
+    ],
+    "version": "1.6.1.0"
+}

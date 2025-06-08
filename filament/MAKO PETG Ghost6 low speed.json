@@ -1,0 +1,52 @@
+{
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "1000"
+    ],
+    "filament_flow_ratio": [
+        "1.05"
+    ],
+    "filament_settings_id": [
+        "MAKO PETG Ghost6 low speed"
+    ],
+    "filament_start_gcode": [
+        "M900 K0.03\n"
+    ],
+    "filament_vendor": [
+        "MAKO"
+    ],
+    "from": "User",
+    "inherits": "My Generic PETG",
+    "is_custom_defined": "0",
+    "name": "MAKO PETG Ghost6 low speed",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "230"
+    ],
+    "pressure_advance": [
+        "0.064"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "1"
+    ],
+    "version": "1.9.0.2"
+}

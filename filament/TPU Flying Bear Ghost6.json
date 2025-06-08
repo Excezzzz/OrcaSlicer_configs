@@ -1,0 +1,97 @@
+{
+    "cool_plate_temp": [
+        "0"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "default_filament_colour": [
+        "#FF8040"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "0"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "0"
+    ],
+    "filament_cooling_moves": [
+        "0"
+    ],
+    "filament_cost": [
+        "3100"
+    ],
+    "filament_deretraction_speed": [
+        "0"
+    ],
+    "filament_loading_speed": [
+        "10"
+    ],
+    "filament_max_volumetric_speed": [
+        "22"
+    ],
+    "filament_retraction_length": [
+        "0.7"
+    ],
+    "filament_retraction_speed": [
+        "25"
+    ],
+    "filament_settings_id": [
+        "TPU Flying Bear Ghost6"
+    ],
+    "filament_unloading_speed": [
+        "10"
+    ],
+    "filament_unloading_speed_start": [
+        "10"
+    ],
+    "filament_vendor": [
+        "ESUN"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "0"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "0"
+    ],
+    "inherits": "My Generic TPU",
+    "is_custom_defined": "0",
+    "name": "TPU Flying Bear Ghost6",
+    "nozzle_temperature": [
+        "280"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "210"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "pressure_advance": [
+        "0.118"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "textured_cool_plate_temp": [
+        "0"
+    ],
+    "textured_cool_plate_temp_initial_layer": [
+        "0"
+    ],
+    "textured_plate_temp": [
+        "0"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "0"
+    ],
+    "version": "1.6.1.0"
+}

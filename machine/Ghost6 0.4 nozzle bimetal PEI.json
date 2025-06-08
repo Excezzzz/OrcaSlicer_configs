@@ -1,0 +1,103 @@
+{
+    "before_layer_change_gcode": "",
+    "extruder_clearance_height_to_lid": "250",
+    "extruder_clearance_height_to_rod": "64",
+    "extruder_clearance_radius": "50",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": "TIMELAPSE_TAKE_FRAME",
+    "machine_end_gcode": "G1 E-15 F1000;\nM104 S0 ; turn off temperature\nM140 S0;\nclean_nozzle ;Macros\nG90\nG1 X0 Y180 Z180 F1500\nM84     ; Disable motors",
+    "machine_max_acceleration_e": [
+        "10000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_travel": [
+        "9000",
+        "9000"
+    ],
+    "machine_max_acceleration_x": [
+        "9800",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "6500",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "100",
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "5",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "15",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "15",
+        "9"
+    ],
+    "machine_max_jerk_z": [
+        "1",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "40",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "400",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "400",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "50",
+        "12"
+    ],
+    "machine_start_gcode": "G28 ; home all axes\nM140 S[first_layer_bed_temperature]      ;Start heating bed\nM104 S150         ;Preheat hotend but don't wait for it\nM190 S[first_layer_bed_temperature]      ;Wait for bed to reach temp\nM104 S[first_layer_temperature] ; set extruder temp\nM109 S[first_layer_temperature] ; wait for extruder temp\nG92 E0\nG1 Z5 F5000 ; lift nozzle\nG1 E15 F1000\nclean_nozzle ;macros",
+    "manual_filament_change": "1",
+    "max_layer_height": [
+        "0.3"
+    ],
+    "min_layer_height": [
+        "0.05"
+    ],
+    "name": "Ghost6 0.4 nozzle bimetal PEI",
+    "nozzle_type": "brass",
+    "print_host": "192.168.1.201",
+    "printable_area": [
+        "0x0",
+        "255x0",
+        "255x215",
+        "0x215"
+    ],
+    "printable_height": "200",
+    "printer_settings_id": "Ghost6 0.4 nozzle bimetal PEI",
+    "printer_structure": "corexy",
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "retraction_length": [
+        "0.9"
+    ],
+    "support_chamber_temp_control": "0",
+    "support_multi_bed_types": "1",
+    "time_cost": "2",
+    "version": "1.6.0.0",
+    "wipe": [
+        "0"
+    ],
+    "z_hop": [
+        "0"
+    ]
+}
